@@ -1,0 +1,62 @@
+/*
+ * css styles go here
+ */
+
+body {
+  color: #424039;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 90%;
+}
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #156cc2;
+  text-decoration: underline;
+}
+
+#header {
+  padding: 4px;
+}
+
+#header .big {
+  color: #009acd;
+  font-size:   140%;
+  font-family: "Arial Black","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
+
+#header .small {
+  color:        grey;
+  font-size:    90%;
+  padding-left: 15px;
+}
+
+#nav {
+  color: #4d7f17;
+  padding: 6px;
+}
+
+h1 {
+  color: #21201c;
+  font-size: 110%;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+  color: olivedrab4;
+  font-size: 110%;
+}
+
+h3 {
+  color: orange3;
+  font-size: 110%;
+}

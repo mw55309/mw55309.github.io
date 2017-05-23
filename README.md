@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# Planet Jekyll Starter Theme - Minimial
 
-You can use the [editor on GitHub](https://github.com/mw55309/mw55309.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A minimalistic Jekyll starter theme for "classic" web sites (e.g. just some web pages)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+├── _config.yml                  # site configuration
+├── _layouts
+|   └── default.html             # master layout template
+├── css
+|   └── style.css                # styles
+├── three.html                   # another sample page (in hypertext markup e.g. html)
+├── two.md                       # another sample page (in markdown e.g. md)
+└── index.md                     # index (start) sample page (in markdown e.g. md)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Becomes
 
-### Jekyll Themes
+```
+└── _site                        # output build folder; site gets generated here
+    ├── css
+    |   └── style.css            # styles for pages (copied 1:1 as is)
+    ├── three.html               # another sample page
+    ├── two.html                 # another sample page 
+    └── index.html               # index (start) sample page
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mw55309/mw55309.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Live Demo
 
-### Support or Contact
+See a live demo @ [`planetjekyll.github.io/jekyll-starter-theme` »](http://planetjekyll.github.io/jekyll-starter-theme)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Version 2.0
+
+Note: For a more "advanced" starter theme, see the
+[Planet Jekyll Starter Theme V2](https://github.com/planetjekyll/jekyll-starter-theme-v2).
+The V2 includes:
+
+- Shared (common) template/page building blocks using `_includes` e.g. `head.html`, `header.html`, `footer.html` etc.
+- CSS preprocessing using Sass/SCSS e.g. `_settings.scss` with `$link-color` etc.
+- Nav(igation) menu (auto-)built using a configuration / data block
+- And more
+
+### More Themes
+
+See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+
+
+### More Quick Starter Wizard Scripts
+
+See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
+
+
+
+## Meta
+
+#### License
+
+The starter theme is dedicated to the public domain.
+Use it as you please with no restrictions whatsoever.
+
+#### Questions? Comments?
+
+Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
+
